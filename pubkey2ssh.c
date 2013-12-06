@@ -41,8 +41,8 @@ static int SshEncodeBuffer(unsigned char *pEncoding, int bufferLen, unsigned cha
 }
 
 int main(int argc, char**  argv) {
-	int iRet = 0;
-	int nLen = 0, eLen = 0;
+   int iRet = 0;
+   int nLen = 0, eLen = 0;
    int encodingLength = 0;
    int index = 0;
    unsigned char *nBytes = NULL, *eBytes = NULL;
