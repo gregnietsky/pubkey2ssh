@@ -151,3 +151,5 @@ error:
    ERR_free_strings();
    return iRet;
 }
+
+/* vim: set tabstop=8 softtabstop=3 shiftwidth=3 expandtab: */
