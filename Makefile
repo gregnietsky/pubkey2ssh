@@ -17,5 +17,5 @@ clean:
 install: all
 	$(INSTALL) -D $(PROGNAME) $(DESTDIR)$(BINDIR)/$(PROGNAME)
 
-$(PROGNAME):
+$(PROGNAME): $(PROGNAME).c
 	$(CC) $(PROGNAME).c -o $(PROGNAME) $(LIBS)
